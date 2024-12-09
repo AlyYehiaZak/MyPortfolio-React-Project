@@ -58,7 +58,7 @@ function Navbar() {
                             <a className="nav-link fs-5 me-4 myFontFamily" href="#skills_section">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-5 me-4 myFontFamily" href="#">Achievements</a>
+                            <a className="nav-link fs-5 me-4 myFontFamily" href="#achievements_section">Achievements</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link fs-5 me-4 myFontFamily" href="#">Personal Info</a>

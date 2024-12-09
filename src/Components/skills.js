@@ -14,7 +14,7 @@ return (
         <div id="skills_section" className="skills_background p-5">
             <div className="container rounded-5 skills_container text-white text-center py-sm-5 px-sm-5 py-3">
 
-                <p className="fs-1 myFontFamily">Skills</p>
+                <h2 className="fs-1 myFontFamily">Skills</h2>
                 <p className="myFontFamily my-text-secondary mb-5">Programming Languages Known</p>
                 
                 <Swiper

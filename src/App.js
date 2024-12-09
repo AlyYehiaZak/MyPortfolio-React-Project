@@ -2,9 +2,12 @@ import React from "react";
 import { BrowserRouter as Router , Routes , Route } from "react-router-dom";
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
-import Welcome from "./Components/welcome";
 import Navbar from "./Components/navbar";
-import Skills from "./Components/skills";
+import Welcome from "./Components/welcome";
+import Education from "./Components/education";
+import Courses from "./Components/courses";
+import Projects from "./Components/projects";
+import Certificates from "./Components/certificates";
 
 function App() {
   return (
@@ -12,9 +15,16 @@ function App() {
       <Router basename="/MyPortifolio-React-Project">
         <Navbar/>
         <Routes>
+
           <Route path="/" element={<Welcome/>}>
-            <Route path="skills" element={<Skills/>}/>
+            <Route path="education" element={<Education/>}/>
+            <Route path="courses" element={<Courses/>}/>
+            <Route path="projects" element={<Projects/>}/>
+            <Route path="certificates" element={<Certificates/>}/>
           </Route>
+
+          <Route path="*" element={<h2>Page not found</h2>}/>
+
         </Routes>
       </Router>
     </>

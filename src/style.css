@@ -17,7 +17,7 @@
 }
 
 .my-bg-secondary{
-    
+    background-color: #3B3B3B;
 }
 
 .myFontFamily{
@@ -193,9 +193,42 @@
     width: 300px;
 }
 
-/* /////////////////////   ///////////////////////////*/
+/* ///////////////////// Achievements  ///////////////////////////*/
 
+.achievements_button_active {
+    background: linear-gradient(to right, #bd4733, #195dba);
+}
 
+.achievements_button_text{
+    font-size: 18px;
+}
+
+/* ///////////////////// Achievements Slots ///////////////////////////*/
+
+.achievements_slots_container{
+    position: relative;
+}
+
+.achievements_slots_overlay{
+    position: absolute;
+    background: linear-gradient(to right, rgba(189, 71, 51, 0.7), rgba(25, 93, 186, 0.7));
+    width: 100%;
+    height: 0%;
+    top: 0;
+    transition: 0.8s;
+    opacity: 0;
+}
+
+.achievements_slots_container:hover .achievements_slots_overlay{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.achievements_slots_img{
+    width: 100%;
+    height: 230px;
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -245,6 +278,9 @@
     .swiper_slides{
         width: 190px;
     }
+    .achievements_button_text{
+        font-size: 15px;
+    }
 }
 
 /* ////// Sm /////// */
@@ -267,5 +303,8 @@
     }
     .swiper_slides{
         width: 120px;
+    }
+    .achievements_button_text{
+        font-size: 12px;
     }
 }
