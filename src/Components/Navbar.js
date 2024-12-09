@@ -52,10 +52,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link fs-5 me-4 myFontFamily" href="#">Welcome</a>
+                            <a className="nav-link fs-5 me-4 myFontFamily" href="#welcome_section">Welcome</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-5 me-4 myFontFamily" href="#">Skills</a>
+                            <a className="nav-link fs-5 me-4 myFontFamily" href="#skills_section">Skills</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link fs-5 me-4 myFontFamily" href="#">Achievements</a>

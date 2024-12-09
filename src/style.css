@@ -9,7 +9,7 @@
 }
 
 .my-text-secondary{
-    
+    color:rgb(166, 166, 166);
 }
 
 .my-bg-primary{
@@ -170,16 +170,27 @@
     font-size: 55px;
 }
 
-.welcome_paragraph{
-    color:rgb(166, 166, 166);
-}
-
 .welcome_img_container{
     height: 600px;
 }
 
 .welcome_img{
     animation: upDown 4s linear infinite;
+}
+
+/* ///////////////////// Skills  ///////////////////////////*/
+
+.skills_background{
+    background-image: url("./../public/images/skillsBackground.jpg");
+    background-size: cover;
+}
+
+.skills_container{
+    background-color: #1D1D1D;
+}
+
+.swiper_slides{
+    width: 300px;
 }
 
 /* /////////////////////   ///////////////////////////*/
@@ -215,6 +226,9 @@
     .navbar_button_container{
         width: 200px;
     }
+    .welcome_background{
+        height: 1350px;
+    }
 }
 
 /* ////// md /////// */
@@ -226,14 +240,17 @@
         font-size: 30px;
     }
     .welcome_background{
-        height: 1100px;
+        height: 1000px;
+    }
+    .swiper_slides{
+        width: 190px;
     }
 }
 
 /* ////// Sm /////// */
 @media (max-width:576px){
     .welcome_background{
-        height: 1050px;
+        height: 1000px;
     }
     .welcome_img_container{
         height: 250px;
@@ -247,5 +264,8 @@
     }
     .cv_icon{
         font-size: 14px;
+    }
+    .swiper_slides{
+        width: 120px;
     }
 }

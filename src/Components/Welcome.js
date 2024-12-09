@@ -1,11 +1,12 @@
 import React from "react";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { ReactTyped } from 'react-typed';
+import Skills from "./skills";
 
 function Welcome() {
   return (
     <>
-      <div className="welcome_background">
+      <div id="welcome_section" className="welcome_background">
         <div className="welcome_background_overlay"></div>
         <div className="welcome_content">
 
@@ -32,7 +33,7 @@ function Welcome() {
                   showCursor = {true}
                 />
               </div>
-              <div className="fs-5 mt-3 ms-5 welcome_paragraph myFontFamily">
+              <div className="fs-5 mt-3 ms-5 my-text-secondary myFontFamily">
                 I am a Software Engineer and a fullstack web developer.
               </div>
               <div className="mt-5 ms-5">
@@ -48,6 +49,8 @@ function Welcome() {
 
         </div>
       </div>
+
+      <Skills/>
     </>
   );
 }
