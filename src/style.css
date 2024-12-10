@@ -229,7 +229,9 @@
 /* ///////////////////// get in touch ///////////////////////////*/
 
 .getintouch_section{
-    background: linear-gradient(to right, #bd4733, #195dba)
+    background: linear-gradient(to right, #bd4733, #195dba);
+    position: relative;
+    padding-bottom: 180px;
 }
 
 .getintouch_image{
@@ -261,9 +263,25 @@
     resize: none;
 }
 
-/* /////////////////////  ///////////////////////////*/
+/* ///////////////////// lets connect section ///////////////////////////*/
 
+.letsconnect_section{
+    position: absolute;
+    width: 80%;
+    bottom: -105px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.letsconnect_button {
+    background: linear-gradient(to right, #bd4733, #195dba);
+}
+
+/* ///////////////////// footer ///////////////////////////*/
+
+.footer_section{
+    padding-top: 150px;
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -291,6 +309,18 @@
     .getintouch_image{
         width: 500px;
     }
+
+    .getintouch_section{
+        padding-bottom: 190px;
+    }
+
+    .letsconnect_section{
+        bottom: -155px;
+    }
+
+    .footer_section{
+        padding-top: 210px;
+    }
 }
 
 /* ////// lg /////// */
@@ -300,6 +330,18 @@
     }
     .welcome_background{
         height: 1350px;
+    }
+
+    .getintouch_section{
+        padding-bottom: 190px;
+    }
+
+    .letsconnect_section{
+        bottom: -145px;
+    }
+
+    .footer_section{
+        padding-top: 210px;
     }
 }
 
@@ -319,6 +361,17 @@
     }
     .achievements_button_text{
         font-size: 15px;
+    }
+    .getintouch_section{
+        padding-bottom: 210px;
+    }
+
+    .letsconnect_section{
+        bottom: -165px;
+    }
+
+    .footer_section{
+        padding-top: 220px;
     }
 }
 
@@ -348,5 +401,16 @@
     }
     .getintouch_image{
         width: 350px;
+    }
+    .getintouch_section{
+        padding-bottom: 230px;
+    }
+
+    .letsconnect_section{
+        bottom: -195px;
+    }
+
+    .footer_section{
+        padding-top: 250px;
     }
 }

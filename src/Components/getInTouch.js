@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import LetsConnect from "./letsConnect";
 
 function GetInTouch() {
 
@@ -34,6 +35,7 @@ function GetInTouch() {
 
                 </div>
 
+                <LetsConnect/>
             </div>
         </>
     );

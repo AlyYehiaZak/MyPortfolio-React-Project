@@ -88,7 +88,7 @@ function Navbar() {
                             </div>
                         </div>
 
-                        <div className="navbar_button_container ms-xl-4">
+                        <div className="navbar_button_container ms-xl-4" onClick={() =>{window.location.href = `#letsconnect_section`}}>
                             <div className="navbar_button_background">
                                 <p className="navbar_button_text fs-5 myFontFamily">Let's Connect</p>
                             </div>

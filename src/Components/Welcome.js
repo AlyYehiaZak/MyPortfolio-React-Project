@@ -4,6 +4,7 @@ import { ReactTyped } from 'react-typed';
 import Skills from "./skills";
 import Achievements from "./achievements";
 import GetInTouch from "./getInTouch";
+import Footer from "./footer";
 
 function Welcome() {
   return (
@@ -39,7 +40,7 @@ function Welcome() {
                 I am a Software Engineer and a fullstack web developer.
               </div>
               <div className="mt-5 ms-5">
-                <a className="text-white fs-4 fw-bold text-decoration-none myFontFamily" href="">Let's Connect <i class="fa-regular fa-circle-right"></i></a>
+                <a className="text-white fs-4 fw-bold text-decoration-none myFontFamily" href="#letsconnect_section">Let's Connect <i class="fa-regular fa-circle-right"></i></a>
               </div>
             </div>
 
@@ -55,6 +56,7 @@ function Welcome() {
       <Skills/>
       <Achievements/>
       <GetInTouch/>
+      <Footer/>
     </>
   );
 }
