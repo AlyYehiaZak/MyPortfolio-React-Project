@@ -17,7 +17,7 @@ function Footer() {
 
     return (
         <>
-            <div className="my-bg-primary footer_section">
+            <div className="my-bg-primary footer_section pb-3">
                 <div className="container-md container-fluid mx-auto d-flex justify-content-between gap-3">
 
                     <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} alt="logo" style={{width: "110px"}}/>

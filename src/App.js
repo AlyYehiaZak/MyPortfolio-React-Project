@@ -8,6 +8,7 @@ import Education from "./Components/education";
 import Courses from "./Components/courses";
 import Projects from "./Components/projects";
 import Certificates from "./Components/certificates";
+import PageNotFound from "./Components/pageNotFound";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path="certificates" element={<Certificates/>}/>
           </Route>
 
-          <Route path="*" element={<h2>Page not found</h2>}/>
+          <Route path="*" element={<PageNotFound/>}/>
 
         </Routes>
       </Router>

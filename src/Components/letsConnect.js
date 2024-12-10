@@ -13,8 +13,8 @@ function LetsConnect() {
 
                     <div className="col-12 col-lg-6 d-flex">
                         <div class="input-group align-content-center mt-4 mt-lg-0">
-                            <input type="text" class="form-control form-control-lg rounded-start-3" placeholder="Your Email Address"/>
-                            <button class="btn btn-lg letsconnect_button text-white rounded-end-3">Let's Connect</button>
+                            <input type="text" class="form-control form-control-lg rounded-start-3" placeholder="Email Address"/>
+                            <button class="btn letsconnect_button text-white rounded-end-3">Let's Connect</button>
                         </div>
                     </div>
 
