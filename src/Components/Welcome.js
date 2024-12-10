@@ -3,6 +3,7 @@ import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { ReactTyped } from 'react-typed';
 import Skills from "./skills";
 import Achievements from "./achievements";
+import GetInTouch from "./getInTouch";
 
 function Welcome() {
   return (
@@ -53,6 +54,7 @@ function Welcome() {
 
       <Skills/>
       <Achievements/>
+      <GetInTouch/>
     </>
   );
 }

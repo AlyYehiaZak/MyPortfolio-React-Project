@@ -6,7 +6,7 @@ function Achievements() {
 
     return (
         <>
-            <div id="achievements_section" className="bg-black">
+            <div id="achievements_section" className="bg-black pb-4">
                 <div className="text-center pt-5">
                     <h2 className="text-white myFontFamily fs-1">My Achievements</h2>
                     <p className="my-text-secondary myFontFamily mt-3 mb-1">I am a Highly motivated and skilled student with a passion for personal growth.</p>

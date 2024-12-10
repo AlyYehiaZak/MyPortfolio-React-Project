@@ -25,7 +25,7 @@ return (
                         },
                         0: {
                             slidesPerView: 2,
-                            spaceBetween: 50,
+                            spaceBetween: 10,
                         },
                     }}
                     pagination={{

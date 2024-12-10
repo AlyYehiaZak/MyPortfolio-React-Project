@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.my-text-primary{
-    
-}
-
 .my-text-secondary{
     color:rgb(166, 166, 166);
 }
@@ -230,6 +226,45 @@
     height: 230px;
 }
 
+/* ///////////////////// get in touch ///////////////////////////*/
+
+.getintouch_section{
+    background: linear-gradient(to right, #bd4733, #195dba)
+}
+
+.getintouch_image{
+    width: 600px;
+}
+
+.getintouch_input{
+    background-color: rgba(1, 1, 1, 0) !important;
+    color: white !important;
+}
+
+.getintouch_input::placeholder{
+    color:rgb(166, 166, 166) !important;
+}
+
+.getintouch_input:focus{
+    background-color: white !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
+.getintouch_input:focus::placeholder{
+    color: black !important;
+    transition: 0.3s;
+}
+
+.getintouch_textarea{
+    width: 90% !important;
+    resize: none;
+}
+
+/* /////////////////////  ///////////////////////////*/
+
+
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @keyframes upDown {
@@ -251,6 +286,10 @@
     }
     .welcome_background{
         height: 1400px;
+    }
+
+    .getintouch_image{
+        width: 500px;
     }
 }
 
@@ -302,9 +341,12 @@
         font-size: 14px;
     }
     .swiper_slides{
-        width: 120px;
+        width: 110px;
     }
     .achievements_button_text{
-        font-size: 12px;
+        font-size: 8px;
+    }
+    .getintouch_image{
+        width: 350px;
     }
 }
