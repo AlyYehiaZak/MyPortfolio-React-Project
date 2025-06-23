@@ -13,7 +13,7 @@ import PageNotFound from "./Components/pageNotFound";
 function App() {
   return (
     <>
-      <Router basename="/MyPortifolio-React-Project">
+      <Router basename="/MyPortfolio-React-Project">
         <Navbar/>
         <Routes>
 
