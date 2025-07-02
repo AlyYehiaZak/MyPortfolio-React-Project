@@ -9,6 +9,18 @@ function Certificates() {
 
                 <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
                     <div className="container-fluid rounded-5 achievements_slots_container p-0">
+                        <img className="achievements_slots_img rounded-5" src={`${process.env.PUBLIC_URL}/images/certificates/sefback.png`} alt="sef back end"/>
+
+                        <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
+                            <div className="align-content-center text-white text-center fs-4">
+                                <p className="mb-0 myFontFamily fw-bold">SEF BackEnd Course Completion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                    <div className="container-fluid rounded-5 achievements_slots_container p-0">
                         <img className="achievements_slots_img rounded-5" src={`${process.env.PUBLIC_URL}/images/certificates/seffront.jpg`} alt="sef front end"/>
 
                         <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">

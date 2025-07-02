@@ -12,7 +12,7 @@ function Footer() {
     };
 
     const cvClick = () => {
-        window.location.href="https://drive.google.com/file/d/17sfKMoHG2_Qw631dJQHu1IBDm7C0MMl9/view?usp=sharing";
+        window.location.href="https://drive.google.com/file/d/1uM10-dSneoGxJzZIwTEWfaTcuOBRzPje/view?usp=sharing";
     };
 
     return (

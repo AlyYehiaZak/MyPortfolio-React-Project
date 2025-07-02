@@ -15,7 +15,7 @@ return (
             <div className="container rounded-5 skills_container text-white text-center py-sm-5 px-sm-5 py-3">
 
                 <h2 className="fs-1 myFontFamily">Skills</h2>
-                <p className="myFontFamily my-text-secondary mb-5">Programming Languages Known</p>
+                <p className="myFontFamily my-text-secondary mb-5">Technical Skills</p>
                 
                 <Swiper
                     breakpoints={{
@@ -35,40 +35,6 @@ return (
                     modules={[Pagination,Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
-                        <div className="swiper_slides mb-5">
-                            <div className="w-100">
-                                <CircularProgressbar
-                                    value={100}
-                                    text={`${100}%`}
-                                    styles={buildStyles({
-                                    textColor: '#ffffff',
-                                    pathColor: '#EF5A17',
-                                    trailColor: '#1D1D1D',
-                                    })}
-                                />
-                            </div>
-                            <p className="text-center mt-3 fs-1 myFontFamily">C++</p>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="swiper_slides mb-5">
-                            <div className="w-100">
-                                <CircularProgressbar
-                                    value={90}
-                                    text={`${90}%`}
-                                    styles={buildStyles({
-                                    textColor: '#ffffff',
-                                    pathColor: '#195dba',
-                                    trailColor: '#1D1D1D',
-                                    })}
-                                />
-                            </div>
-                            <p className="text-center mt-3 fs-1 myFontFamily">C#</p>
-                        </div>
-                    </SwiperSlide>
-
                     <SwiperSlide>
                         <div className="swiper_slides mb-5">
                             <div className="w-100">
@@ -124,8 +90,8 @@ return (
                         <div className="swiper_slides mb-5">
                             <div className="w-100">
                                 <CircularProgressbar
-                                    value={70}
-                                    text={`${70}%`}
+                                    value={100}
+                                    text={`${100}%`}
                                     styles={buildStyles({
                                     textColor: '#ffffff',
                                     pathColor: '#195dba',
@@ -133,7 +99,7 @@ return (
                                     })}
                                 />
                             </div>
-                            <p className="text-center mt-3 fs-1 myFontFamily">Python</p>
+                            <p className="text-center mt-3 fs-1 myFontFamily">C++</p>
                         </div>
                     </SwiperSlide>
 
@@ -150,7 +116,41 @@ return (
                                     })}
                                 />
                             </div>
-                            <p className="text-center mt-3 fs-1 myFontFamily">C</p>
+                            <p className="text-center mt-3 fs-1 myFontFamily">C#</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={90}
+                                    text={`${90}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#195dba',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Java</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={70}
+                                    text={`${70}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#EF5A17',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Python</p>
                         </div>
                     </SwiperSlide>
 
@@ -168,6 +168,125 @@ return (
                                 />
                             </div>
                             <p className="text-center mt-3 fs-1 myFontFamily">SQL</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#EF5A17',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">React Js</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#195dba',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Node Js</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#EF5A17',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Bootstrap</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#195dba',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Tailwind CSS</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#EF5A17',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Firebase</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#195dba',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">Postman</p>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="swiper_slides mb-5">
+                            <div className="w-100">
+                                <CircularProgressbar
+                                    value={100}
+                                    text={`${100}%`}
+                                    styles={buildStyles({
+                                    textColor: '#ffffff',
+                                    pathColor: '#EF5A17',
+                                    trailColor: '#1D1D1D',
+                                    })}
+                                />
+                            </div>
+                            <p className="text-center mt-3 fs-1 myFontFamily">MongoDB</p>
                         </div>
                     </SwiperSlide>
 

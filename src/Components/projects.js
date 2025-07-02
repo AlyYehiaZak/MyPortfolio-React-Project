@@ -9,12 +9,38 @@ function Projects() {
 
                 <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
                     <div className="container-fluid rounded-5 achievements_slots_container p-0">
+                        <img className="achievements_slots_img rounded-5" src={`${process.env.PUBLIC_URL}/images/projects/ASPG.jpg`} alt="ASPG"/>
+
+                        <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
+                            <div className="align-content-center text-white text-center fs-4">
+                                <p className="mb-0 myFontFamily fw-bold">Adaptive Study Plan Generator (Graduation Project)</p>
+                                <p className="mb-0">React JS/Node.Js/Python/Firebase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                    <div className="container-fluid rounded-5 achievements_slots_container p-0">
+                        <img className="achievements_slots_img rounded-5" src={`${process.env.PUBLIC_URL}/images/projects/spaceTourism.png`} alt="space tourism"/>
+
+                        <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
+                            <div className="align-content-center text-white text-center fs-4">
+                                <p className="mb-0 myFontFamily fw-bold">Space Tourism Website</p>
+                                <p className="mb-0">React js/BOOTSTRAP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                    <div className="container-fluid rounded-5 achievements_slots_container p-0">
                         <img className="achievements_slots_img rounded-5" src={`${process.env.PUBLIC_URL}/images/projects/portfolio.png`} alt="portfolio"/>
 
                         <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
                             <div className="align-content-center text-white text-center fs-4">
-                                <p className="mb-0 myFontFamily fw-bold">Portfolio Website</p>
-                                <p className="mb-0">React Node js/BOOTSTRAP</p>
+                                <p className="mb-0 myFontFamily fw-bold">MyPortfolio</p>
+                                <p className="mb-0">React js/BOOTSTRAP</p>
                             </div>
                         </div>
                     </div>
@@ -40,7 +66,20 @@ function Projects() {
                         <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
                             <div className="align-content-center text-white text-center fs-4">
                                 <p className="mb-0 myFontFamily fw-bold">Nasa Website</p>
-                                <p className="myFontFamily">HTML/CSS/BOOTSTRAP</p>
+                                <p className="myFontFamily">HTML/CSS/JS/BOOTSTRAP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                    <div className="container-fluid rounded-5 achievements_slots_container p-0">
+                        <img className="achievements_slots_img rounded-5" src={`${process.env.PUBLIC_URL}/images/projects/psStore.png`} alt="Ps Store"/>
+
+                        <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
+                            <div className="align-content-center text-white text-center fs-4">
+                                <p className="mb-0 myFontFamily fw-bold">PlayStation Store</p>
+                                <p className="myFontFamily">HTML/CSS/JS/Bootstrap</p>
                             </div>
                         </div>
                     </div>
@@ -53,7 +92,7 @@ function Projects() {
                         <div className="achievements_slots_overlay rounded-5 d-flex justify-content-center">
                             <div className="align-content-center text-white text-center fs-4">
                                 <p className="mb-0 myFontFamily fw-bold">Gym Club Website</p>
-                                <p className="myFontFamily">HTML5/CSS</p>
+                                <p className="myFontFamily">HTML5/CSS3</p>
                             </div>
                         </div>
                     </div>
